@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "spartan_like_weaponry",
+  "version": "${version}",
+  "name": "Spartan Like Weaponry",
+  "description": "Based on oblibiousSpartan's & xwerffx's Spartan weaponry mod",
+  "authors": [
+    "NingyMD"
+  ],
+  "contact": {
+    "repo": "https://github.com/NingyMD/SpartanLikeWeaponry"
+  },
+  "license": "MIT",
+  "icon": "assets/spartan_like_weaponry/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.ningymd.spartan_like_weaponry.client.SpartanLikeWeaponryClient"
+    ],
+    "main": [
+      "com.ningymd.spartan_like_weaponry.SpartanLikeWeaponry"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
